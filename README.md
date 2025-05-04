@@ -17,7 +17,9 @@
 ```bash
 pip install onnxruntime opencv-python numpy
 
-## 💡 技術說明
+
+
+ 💡 技術說明
 使用 letterbox 將輸入影像縮放並加邊框，避免圖像變形，讓模型輸出座標更準確。
 
 偵測結果包含框選邊界（bounding box）、類別名稱與信心分數。
